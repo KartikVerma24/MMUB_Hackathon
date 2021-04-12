@@ -4,7 +4,7 @@ const fs = require("fs");
 
 let FinalData = [];
 async function main(){
-    let search = await prompt('name :- ');
+    let search = await prompt('Product to be searched :- ');
     let browser = await pup.launch({
         headless : false,
         defaultViewport : false,
